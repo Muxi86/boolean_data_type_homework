@@ -7,4 +7,8 @@ def main(b):
         bool
     """
     # Write your code here
-    return 
+    return b >= 8
+ 
+b = int(input())
+
+print(main(b))
